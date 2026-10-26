@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter analyze *)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\ST\\\\StudioProjects\\\\physioAi\" -Recurse -Include *.dart)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(flutter build *)",
+      "Bash(dart analyze *)",
+      "Bash(flutter pub *)",
+      "Bash(findstr \"intl\" pubspec.yaml)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\ST\\\\StudioProjects\\\\physioAi\" -Recurse -Directory)",
+      "Bash(Remove-Item *)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\ST\\\\StudioProjects\\\\physioAi\\\\lib\" -Recurse -Filter \"*chat*\")",
+      "Bash(Select-Object FullName, Length)",
+      "Bash(Format-Table -AutoSize)",
+      "WebSearch",
+      "WebFetch(domain:workoutxapp.com)",
+      "WebFetch(domain:exercisedb.io)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(New-Item -ItemType File -Path \"C:\\\\Users\\\\ST\\\\StudioProjects\\\\physioAi\\\\.env\" -Force)",
+      "Bash(Out-Null)",
+      "Bash(Get-Content \"C:\\\\Users\\\\ST\\\\StudioProjects\\\\physioAi\\\\.env\")"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+name: physioai
+description: "PhysioAI - Your Personal Physiotherapy Assistant, Powered by AI"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_dotenv: ^6.0.1
+  provider: ^6.1.2
+  lottie: ^3.1.2
+  fl_chart: ^0.69.0
+  google_mlkit_pose_detection: ^0.12.0
+  camera: ^0.11.0+1
+  google_fonts: ^6.2.1
+  intl: ^0.20.2
+  path_provider: ^2.1.3
+  permission_handler: ^11.3.1
+  liquid_glass_flutter: ^0.0.1+1
+  flutter_screenutil: ^5.9.3
+  animated_text_kit: ^4.3.0
+  flutter_svg: ^2.0.0
+  shared_preferences: ^2.5.5
+  flutter_staggered_grid_view: ^0.7.0
+  shimmer: ^3.0.0
+  connectivity_plus: ^5.0.2
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/animations/
+    - assets/ui/
+    - assets/svg/
+    - assets/daily_assessment_icon.png
+    - assets/chat_icon.png
+    - assets/session_icon.png
+    - assets/assesment.png
+    - assets/gym.png
